@@ -1,0 +1,86 @@
+# archico .editorconfig
+# Indica que este archivo EditorConfig es la raíz de la configuración.
+# Esto evita que se busquen configuraciones en otros directorios.
+root = true
+
+# La sección [*] se aplica a todos los archivos.
+[*]
+
+# Especifica que el conjunto de caracteres de los archivos debe ser UTF-8.
+charset = utf-8
+
+# Define que el estilo de indentación será con espacios.
+indent_style = space
+
+# Especifica que la indentación tendrá un tamaño de 2 espacios.
+indent_size = 2
+
+# Asegura que todos los archivos terminen con una nueva línea al final.
+insert_final_newline = true
+
+# Elimina los espacios en blanco al final de las líneas.
+trim_trailing_whitespace = true
+
+# Esta sección se aplica solo a los archivos con extensión .js.
+[*.js]
+
+# Indica que las comillas usadas en los archivos .js deben ser comillas simples (' ').
+quote_type = single
+
+# Esta sección se aplica solo a los archivos con extensión .md (archivos Markdown).
+[*.md]
+
+# No limita la longitud máxima de las líneas en los archivos Markdown.
+max_line_length = off
+
+# No elimina los espacios en blanco al final de las líneas en los archivos Markdown.
+trim_trailing_whitespace = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
